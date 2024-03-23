@@ -60,12 +60,11 @@ body {
 #gj{
     background-image: url(GUJARAT.jpg);
     background-size: cover;
-    backdrop-filter: blur(50px); 
     background-position-x: center;
     position: absolute;
     top: 200px;
     font-size: 30px;
-    margin: 40px;
+    margin: 60px;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -74,7 +73,6 @@ body {
     top: 350;
     height:250px;
     width: 250px;
-    cursor: grabbing;
     transition: all 0.2s ease-in;
     border-radius: 10px;
     box-shadow: 0px 0px 40px black;
@@ -89,7 +87,7 @@ body {
 #rj{
     background-image:url(RAJASTHAN.jpg);
     background-size: cover;
-    margin: 40px;
+    margin: 60px;
     padding: 10px;
     position: absolute;
     top: 200px;
@@ -119,7 +117,7 @@ body {
     background-position: center;
     position: absolute;
     display: flex;
-    margin: 40px;
+    margin: 60px;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -146,7 +144,7 @@ body {
     background-position: center;
     position: absolute;
     display: flex;
-    margin: 40px;
+    margin: 60px;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -167,6 +165,38 @@ body {
     cursor: pointer;
     transform: translateY(-10px);
 }
-#gj, #rj, #ass, #mah{
-    border-spacing: 20px;
+@media screen and (height: 1980px) and (width: 1080px) {
+    #maintxt {
+        top: 400px;
+        left: 100px;
+    }
+
+    #gj {
+        margin: 60px;
+        padding: 40px;
+        top: 200px;
+        right: 400px;
+    }
+
+    #rj {
+        margin: 60px;
+        padding: 40px;
+        top: 200px;
+        left: 600px; /* Adjusted left position */
+    }
+
+    #ass {
+        margin: 60px;
+        padding: 40px;
+        top: 500px;
+        left: 600px; /* Adjusted left position */
+    }
+
+    #mah {
+        margin: 60px;
+        padding: 40px;
+        top: 500px;
+        right: 400px;
+    }
 }
+/*THE MEDIA QUERY PART WAS WRITTEN BY CHAT GPT, IT MIGHT NOT WORK PROPERLY :-)  */
